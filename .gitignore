@@ -1,0 +1,63 @@
+# Data files
+*.zip
+Train/
+Test/
+*.csv
+data/
+*.p
+*.pkl
+
+# Model files
+*.h5
+!gtsrb_best_model.keras
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+.jupyter/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+.AppleDouble
+.LSOverride
+
+# Kaggle
+.kaggle/
+kaggle.json
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Node modules (if using node-based tools)
+node_modules/
+
+# Large files
+*.tar.gz
+*.tar
+*.7z
+*.rar
